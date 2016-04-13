@@ -1,0 +1,48 @@
+
+
+<html>
+
+<head>
+<title>
+JavaScript
+</title>
+</head>
+
+
+<h3> Enter your age</h3>
+<input id="num">
+
+
+
+<script>
+function my(){
+
+var x, text;
+
+x = document.getElementById("num").value;
+
+if (isNaN(x)) {
+text = "Invalid value";
+} else if (x < 16 ) {
+text = "Kidduu :P";
+} else if (x > 16 ) {
+text = "Oldiee :P";
+} else {
+text = "Sweet SixTeen :D ;)";
+}
+
+document.getElementById("demo").innerHTML = text;
+
+}
+</script>
+
+<body>
+
+
+
+<button type="button" onclick="my()"> Submit </button>
+
+<p id="demo"> </p>
+
+</body>
+</html>
