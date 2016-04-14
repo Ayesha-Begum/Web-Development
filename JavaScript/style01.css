@@ -1,0 +1,43 @@
+body {
+    font: 100% Courier New;
+    margin: 20px;
+    line-height: 26px;
+    background-color: #000000;
+}
+
+
+
+
+ h3 {
+    color: #84c754;
+    text-align: center;
+}
+
+
+p {
+   font: 100%;
+   color: white;
+}
+
+img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;    
+    width: 500%;
+    height: 500%;
+}
+a:hover {
+    color: #84c754;
+}
+
+
+
+img {
+    opacity: 0.4;
+    filter: alpha(opacity=40); /* For IE8 and earlier */
+}
+
+img:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
