@@ -8,9 +8,7 @@ h3 {
 }
 
 p {
-  
   color: white;
-  
 }
 
 .about {
@@ -53,7 +51,7 @@ a{
 }
 a:hover {
 	color:black;
-	background:blue;
+	background:orange;
 }
 
 img {
