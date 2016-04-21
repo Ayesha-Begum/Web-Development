@@ -1,5 +1,6 @@
 h1 {
   color: black;
+  text-align: center;
 }
 
 h3 {
@@ -27,7 +28,7 @@ p {
 	width: 650px;
 	margin-left: 300px;
 	padding: 24px 20px;
-	background-color: brown;
+	background-color: grey;
 	font: italic 15px Georgia, sans-serif;
 }
 
@@ -37,4 +38,25 @@ li {
 
 body {
   background-color: pink;
+}
+
+a{
+	background:grey;
+	color:white;
+	padding:12px 12px;
+	float:left;
+	width:20%;
+	line-height: 20px;
+	font-size: 15px;
+	text-align: left;
+	text-decoration: none
+}
+a:hover {
+	color:black;
+	background:yellow;
+}
+
+img {
+	clear:both;
+	width:200px;
 }
